@@ -1,0 +1,44 @@
+.graphData{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+    justify-content: space-around;
+    grid-row-gap:20px;
+}
+
+
+.graphSeparate{
+border: 1px solid lightgray;
+border-radius: 8px 8px 5px 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: flex;
+flex-direction: column;
+}
+
+.graphSeparate>.middle{
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.graphSeparate>.graphName>h2{
+    margin: 0;
+    padding-left: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid lightgrey;
+    font-size: 25px;
+    font-weight: 200;
+}
+.graphSeparate>.graphValue{
+    display: flex;
+    justify-content: baseline;
+   align-self: center;
+   margin-bottom: 5px;
+}
+.graphSeparate>.graphValue>.value1{
+    font-size: 20px;
+}
+.graphSeparate>.graphValue>.value2{
+    font-size: 10px;
+    font-weight: 200;
+}

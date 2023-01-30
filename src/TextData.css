@@ -1,0 +1,54 @@
+.textData{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 180px));
+    grid-column-gap: 10px;
+    grid-row-gap:25px;
+    padding-bottom: 20px;
+}
+.template{
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    border-radius: 8px 8px 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.template>.templateName, .templateValue{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.template>.templateName{
+    border-bottom: 1px solid lightgrey;
+}
+.template>.templateName>h2{
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 300;
+}
+.template>.templateValue{
+    display: flex;
+    justify-items: baseline;
+    margin-bottom: 10px;
+}
+.template>.templateValue>.value1{
+    font-size: 35px;
+    font-weight: 300;
+}
+.template>.templateValue>.value2{
+    font-size: 15px;
+    font-weight: 100;
+}
+.linearProgress{
+    border-radius: 999px !important;
+    height: 5px !important;
+    margin-bottom: -1px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .textData{
+        grid-column-gap: 10px;
+        grid-row-gap:25px;
+        justify-content: space-evenly;   
+        padding-left: 0;
+    }
+}

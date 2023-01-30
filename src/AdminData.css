@@ -1,0 +1,28 @@
+.adminData{
+    margin: 0 10px 5px 10px;
+}
+.adminData>h6{
+    padding: 0 !important;
+    margin:  0 !important;
+    padding-left: 20px !important;
+    padding-bottom: 5px !important;
+}
+.adminLogo{
+    border-color: lightgrey !important;
+    background-color: aliceblue !important;
+    margin: 1px !important;
+    padding: -5px !important;
+}
+
+@media screen and (max-width: 700px) {
+    .adminLogo{
+        font-size: 8px !important;
+        padding: 0px !important;
+        height: 20px !important;
+        padding-right: 0px !important;
+    }
+    .adminAvatar{
+        height: 16px !important;
+        width: 16px !important;
+    }
+}

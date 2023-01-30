@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.logoBox{
+    width: 65px;
+    height: 65px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 20px;
+    margin-bottom: 15px;
+}
+.logoBox>.logo{
+height: 50px;
+width: 50px;
+color: green;
+margin: auto;
+display: flex;
+padding-top: 5px;
+}
+.ardinoDetails{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.heading >h5{
+    font-size: 15px;
+}
+.statusChecker{
+    margin-left: 10px;
+    font-size: 10px !important;
+    color: red !important;
+    padding:2px !important;
+    height: 23px !important;
+}
+.statusLogo{
+    font-size: 10px !important;
+    color: red !important;
+}
+.intitutionName{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -10px !important;
+    margin-bottom: 5px !important;
+}
+.intitutionName>h6{
+    padding: 0;
+    margin: 0;
+}
